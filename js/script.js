@@ -1,4 +1,7 @@
 const display = document.querySelector("#display");
+const themeToggleBtn = document.querySelector(".theme-toggler");
+const calculator = document.querySelector(".calculator");
+const toggleIcon = document.querySelector(".toggler-icon");
 const input1 = document.querySelector(".input1");
 const numberBtn = document.querySelectorAll(".btn-number");
 const clearBtn = document.querySelector(".clear-btn");
@@ -39,12 +42,7 @@ opposite.addEventListener('click', () => {
   });
 
 
-
-
-
-const themeToggleBtn = document.querySelector(".theme-toggler");
-const calculator = document.querySelector(".calculator");
-const toggleIcon = document.querySelector(".toggler-icon");
+// dark mode
 let isDark = true;
 themeToggleBtn.onclick = () => {
   calculator.classList.toggle("dark");
@@ -54,7 +52,7 @@ themeToggleBtn.onclick = () => {
 
 
 
-
+// time
 function getDateTime() {
     var now     = new Date(); 
     var hour    = now.getHours();
