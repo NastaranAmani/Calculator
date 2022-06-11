@@ -24,7 +24,7 @@
 This project is redesigned from a <a href="https://dribbble.com/shots/14136491-Daily-UI-004-Calculator" target="_blank">dribbble</a> shot.
 <br />
 <div align="center">
-    <img src="./assets/Calculator-Demo.png" alt="" width="500" height="700">
+    <img src="./assets/CalculatorDemo.png" alt="" width="500" height="800">
 </div>
 
 What makes this product different is the pleasent experience you'll have, due to its dark and light theme and UI/UX Design.
